@@ -14,7 +14,7 @@
 
 NEUROFORGE es mi plan estructurado de **un año** para pivotar de **backend engineer** (Java/Spring Boot, C#, Python · 4 años de producción) a **investigador en Computer Vision aplicada a neuroimagen psiquiátrica**.
 
-**Objetivo final**: trabajar en un laboratorio español investigando esquizofrenia con MRI/fMRI — CIBERSAM, IDIBAPS, BBRC, FIDMAG, Hospital Clínic, Hospital del Mar o Gregorio Marañón.
+**Objetivo final**: trabajar en un laboratorio español aplicando MRI/fMRI a investigación clínica en salud mental — CIBERSAM, IDIBAPS, BBRC, FIDMAG, Hospital Clínic, Hospital del Mar o Gregorio Marañón.
 
 Aquí publico todos los notebooks, ejercicios, proyectos boss-fight y documentación bilingüe (ES/EN) generados durante el viaje. Es deliberadamente público para mantener accountability y para que otros que hagan el mismo pivote puedan seguir el camino.
 
@@ -22,7 +22,7 @@ Aquí publico todos los notebooks, ejercicios, proyectos boss-fight y documentac
 
 NEUROFORGE is a structured one-year plan to pivot from **backend engineering** (Java/Spring/C#/Python · 4 yrs production) into **Computer Vision research applied to psychiatric neuroimaging**.
 
-**Endgame**: research-engineer or PhD position at a Spanish lab investigating schizophrenia with MRI/fMRI — CIBERSAM, IDIBAPS, BBRC, FIDMAG, Hospital Clínic, Hospital del Mar, or Gregorio Marañón.
+**Endgame**: research-engineer or PhD position at a Spanish lab applying MRI/fMRI to mental-health clinical research — CIBERSAM, IDIBAPS, BBRC, FIDMAG, Hospital Clínic, Hospital del Mar, or Gregorio Marañón.
 
 All notebooks, exercises, boss-fight projects, and bilingual documentation produced during the journey live here. Intentionally public for accountability and to help others making the same pivot.
 
@@ -36,7 +36,7 @@ All notebooks, exercises, boss-fight projects, and bilingual documentation produ
 | **II** | Jul–Aug 2026 | Image Processing · OpenCV · scikit-image | Skin Lesion Pre-screening (HAM10000, classical CV only) |
 | **III** | Sep–Oct 2026 | Deep Learning · PyTorch Lightning · MLOps | Chest X-ray Pathology Classifier (full stack: W&B, Docker, FastAPI) |
 | **IV** | Nov 26–Jan 27 | Medical Imaging · DICOM · BIDS · MONAI · nnU-Net | BIDS-compliant 3D U-Net Hippocampal Segmentation (OASIS-3) |
-| **V** | Feb–Apr 2027 | Neuroimaging Research · fMRIPrep · BrainNetCNN · Statistics | **Schizophrenia vs Controls Classifier on COBRE** — full pipeline + preprint write-up |
+| **V** | Feb–Apr 2027 | Neuroimaging Research · fMRIPrep · BrainNetCNN · Statistics | **Clinical Cohort Classifier on a public fMRI dataset** — full pipeline + preprint write-up |
 
 ---
 
@@ -57,7 +57,7 @@ All notebooks, exercises, boss-fight projects, and bilingual documentation produ
 
 ## 🎯 Final Boss · Apr 2027
 
-**Schizophrenia vs Controls Classifier on COBRE**
+**Clinical Cohort Classifier on a public fMRI dataset**
 - Full BIDS pipeline (download → fMRIPrep → FC matrices)
 - BrainNetCNN / Graph Neural Network classifier
 - Bootstrap CIs + permutation tests for honest statistics
