@@ -7,4 +7,39 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Personal NEUROFORGE state (XP, streak, badges — local only)
+state.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Datasets (large, fetch on demand)
+data/
+datasets/
+*.tar.gz
+*.zip
+
+# Model artifacts (large, regenerate from training)
+*.pt
+*.pth
+*.h5
+*.onnx
+checkpoints/
+
+# Logs
+*.log
+wandb/
+mlruns/
